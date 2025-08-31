@@ -62,7 +62,7 @@ alias cat='bat'
 alias gc='g++ -o o'
 alias py='python3'
 alias py='python3'
-alias cp='rsync -avhW --no-compress --progress '
+alias c='sudo rsync -avhW --no-compress --progress '
 alias code='code --ozone-platform=x11'
 alias kiro='kiro --ozone-platform=x11'
 alias y='yazi'
@@ -76,6 +76,7 @@ alias cd='z'
 alias s='sudo pacman -Ss '
 alias i='sudo pacman -S '
 alias u='sudo pacman -Syu '
+alias tk='tmux kill-server'
 
 
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
