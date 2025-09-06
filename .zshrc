@@ -73,9 +73,9 @@ alias lg='lazygit'
 alias nivm='nvim'
 alias pdf='firefox'
 alias cd='z'
-alias s='sudo pacman -Ss '
-alias i='sudo pacman -S '
-alias u='sudo pacman -Syu '
+alias s='yay -Ss '
+alias i='yay -S '
+alias u='yay -Syu '
 alias tk='tmux kill-server'
 
 
