@@ -58,3 +58,5 @@ application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 text/x-csrc=org.xfce.mousepad.desktop;
 inode/symlink=org.xfce.mousepad.desktop;
+application/vnd.apple.keynote=org.xfce.mousepad.desktop;
+application/x-subrip=org.xfce.mousepad.desktop;nvim.desktop;micro.desktop;
