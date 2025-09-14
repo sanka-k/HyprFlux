@@ -77,8 +77,6 @@ keybind = alt+0=esc:0
 
 
 
-gtk-single-instance = true
-
 
 # # Empty values are used to reset config keys to default.
 # key =
