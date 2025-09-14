@@ -96,9 +96,9 @@ YAY_PACKAGES=(
 LOG_FILE="$HOME/hyprflux_log/dotsSetup.log"
 exec > >(tee -a "$LOG_FILE") 2>&1
 
-# ===========================
+# ================================
 # Ask for sudo once, keep it alive
-# ===========================
+# ================================
 echo "${NOTE} Asking for sudo password^^...${RESET}"
 sudo -v
 keep_sudo_alive() {

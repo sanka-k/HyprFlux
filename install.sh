@@ -24,9 +24,9 @@ mkdir -p "$HOME/hyprflux_log"
 LOG_FILE="$HOME/hyprflux_log/install.log"
 exec > >(tee -a "$LOG_FILE") 2>&1
 
-# ===================
+# ==========================
 # Initial Bannar
-# ===================
+# =========================
 
 clear
 echo -e "\n"
