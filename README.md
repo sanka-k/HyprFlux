@@ -157,15 +157,6 @@ The installer will request sudo password **2-3 times** during the process:
 - **[VLC](https://www.videolan.org/vlc/)**, **[OBS Studio](https://obsproject.com/)**: Media and content creation tools
 - **[Obsidian](https://obsidian.md/)**, **[VS Code](https://code.visualstudio.com/)**: Productivity applications
 
-### 🌐 Web Applications
-
-Automated setup of Progressive Web Apps (PWAs) for:
-
-- [Netflix](https://www.netflix.com/), [YouTube](https://www.youtube.com/), [Spotify](https://open.spotify.com/)
-- [GitHub](https://github.com/), [Vercel](https://vercel.com/), [Figma](https://www.figma.com/)
-- [ChatGPT](https://chat.openai.com/), [Claude](https://claude.ai/), [Grok](https://x.ai/)
-- [WhatsApp](https://www.whatsapp.com/), [Discord](https://discord.com/), [Slack](https://slack.com/)
-- And many more...
 
 ## 🔧 Post-Installation
 
