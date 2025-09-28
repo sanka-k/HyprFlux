@@ -76,7 +76,8 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 pacman -S --needed git base-devel
 git clone --depth 1 https://github.com/sanka-k/HyprFlux.git ~/HyprFlux
 cd ~/HyprFlux
-.install.sh
+chmod +x install.sh
+./install.sh
 ```
 
 > **⚠️ Important**: This script will modify your system configuration. Make sure to backup any existing dotfiles before proceeding.
