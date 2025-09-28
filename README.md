@@ -70,10 +70,13 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 
 ## 🚀 Quick Installation
 
-### One-Line Magic Command
+### To install, execute the following commands:
 
 ```bash
-sh <(curl -fsSL https://hyprflux.dev/install)
+pacman -S --needed git base-devel
+git clone --depth 1 https://github.com/sanka-k/HyprFlux.git ~/HyprFlux
+cd ~/HyprFlux
+.install.sh
 ```
 
 > **⚠️ Important**: This script will modify your system configuration. Make sure to backup any existing dotfiles before proceeding.
