@@ -424,30 +424,7 @@ else
   echo -e "${WARN} nwg-look not found. Skipping export step.${RESET}" | tee -a "$LOG_FILE"
 fi
 
-# =============================
-# Grub BootLoader Theme (Vimix)
-# =============================
-echo -e "${ACTION} Checking for GRUB...${RESET}"
 
-if command -v grub-install >/dev/null 2>&1 || command -v grub-mkconfig >/dev/null 2>&1; then
-  echo -e "${OK} GRUB detected. Installing GRUB theme (Vimix)...${RESET}"
-
-  mkdir -p "$GRUB_THEME_DIR"
-  tar -xf "$GRUB_THEME_ARCHIVE" -C "$GRUB_THEME_DIR"
-
-  INSTALL_PATH=$(find "$GRUB_THEME_DIR" -type f -name "install.sh" -exec dirname {} \; | head -n1)
-  if [ -n "$INSTALL_PATH" ]; then
-    echo -e "${ACTION} Running GRUB theme installer...${RESET}"
-    pushd "$INSTALL_PATH" >/dev/null
-    sudo bash ./install.sh >/dev/null 2>&1
-    popd >/dev/null
-    echo -e "${OK} GRUB theme installed successfully.${RESET}"
-  else
-    echo -e "${WARN} install.sh not found in extracted Vimix theme. Skipping.${RESET}"
-  fi
-else
-  echo -e "${WARN} GRUB not detected. Skipping GRUB theme installation.${RESET}"
-fi
 
 # ============================
 # Install Plymouth and Theme Installation
