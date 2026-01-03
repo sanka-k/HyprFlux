@@ -254,6 +254,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Special thanks to:
 
+- **<a href="https://github.com/JaKooLit">JaKooLit</a>** - For providing the initial setup and foundation that this project is based on
 - **Hyprland Community** - For the amazing compositor
 - **Arch Linux Team** - For the robust foundation
 - **Open Source Contributors** - For the tools and themes used
