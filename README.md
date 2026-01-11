@@ -13,22 +13,22 @@
 
 **A comprehensive collection of dotfiles and configurations for creating a beautiful, efficient Hyprland desktop environment on Arch Linux**
 
-[🚀 Quick Install](#-quick-installation) • [📸 Screenshots](#-screenshots) • [🔧 Features](#-features) • <a href="https://hyprflux.dev/general/installation" target="_blank" rel="noopener noreferrer">📖 Documentation</a>
-• [🤝 Contributing](#-contributing)
+[Quick Install](#quick-installation) • [Screenshots](#screenshots) • [Features](#features) • <a href="https://hyprflux.dev/general/installation" target="_blank" rel="noopener noreferrer">Documentation</a>
+• [Contributing](#contributing)
 
 </div>
 
 ---
 
-## 🌐 Website
+## Website
 
 **For detailed documentation and preferences, visit:** [https://hyprflux.dev](https://hyprflux.dev)
 
-## 🌟 Overview
+## Overview
 
 HyprFlux is a meticulously crafted collection of configuration files designed to transform your Arch Linux installation into a stunning, productive desktop environment. Built around the modern Hyprland compositor, it provides a seamless blend of aesthetics and functionality.
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
 
@@ -44,15 +44,15 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 
 </div>
 
-### ✨ What Makes HyprFlux Special?
+### What Makes HyprFlux Special?
 
-- **🎨 Beautiful Design**: Carefully curated themes and color schemes
-- **⚡ Performance Optimized**: Lightweight and fast configurations
-- **🔧 Fully Automated**: One-command installation with intelligent setup
-- **🎯 Developer Focused**: Optimized for productivity and development workflows
-- **🌈 Customizable**: Easy to modify and extend according to your preferences
+- **Beautiful Design**: Carefully curated themes and color schemes
+- **Performance Optimized**: Lightweight and fast configurations
+- **Fully Automated**: One-command installation with intelligent setup
+- **Developer Focused**: Optimized for productivity and development workflows
+- **Customizable**: Easy to modify and extend according to your preferences
 
-## 📋 Requirements
+## Requirements
 
 ### System Requirements
 
@@ -68,7 +68,7 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 - Basic system utilities (curl, git, sudo)
 - User account with sudo privileges
 
-## 🚀 Quick Installation
+## Quick Installation
 
 ### One-Line Magic Command
 
@@ -76,7 +76,7 @@ HyprFlux is a meticulously crafted collection of configuration files designed to
 sh <(curl -fsSL https://hyprflux.dev/install)
 ```
 
-> **⚠️ Important**: This script will modify your system configuration. Make sure to backup any existing dotfiles before proceeding.
+> **Important**: This script will modify your system configuration. Make sure to backup any existing dotfiles before proceeding.
 
 ### Installation Process
 
@@ -86,18 +86,18 @@ sh <(curl -fsSL https://hyprflux.dev/install)
 
 ![Installation Options](review/select-img.png)
 
-#### 🔧 Recommended Installation Options
+#### Recommended Installation Options
 
 **Essential Components** (Recommended):
 
-- ✅ `sddm` - Display manager for login screen
-- ✅ `sddm_theme` - Beautiful custom SDDM theme
-- ✅ `gtk_themes` - GTK theme integration
-- ✅ `bluetooth` - Bluetooth support
-- ✅ `thunar` - File manager
-- ✅ `xdph` - Desktop portal for Hyprland
-- ✅ `zsh` - Enhanced shell with Oh My Zsh
-- ✅ `dots` - Core dotfiles and configurations
+- `sddm` - Display manager for login screen
+- `sddm_theme` - Beautiful custom SDDM theme
+- `gtk_themes` - GTK theme integration
+- `bluetooth` - Bluetooth support
+- `thunar` - File manager
+- `xdph` - Desktop portal for Hyprland
+- `zsh` - Enhanced shell with Oh My Zsh
+- `dots` - Core dotfiles and configurations
 
 **Optional Components**:
 
@@ -105,7 +105,7 @@ sh <(curl -fsSL https://hyprflux.dev/install)
 - `Pokemon` - Add Pokemon color scripts to your terminal
 - `Rog` - Download and Install Pre-configured for ROG Laptops
 
-#### 📝 Interactive Configuration
+#### Interactive Configuration
 
 During installation, you'll be prompted to configure:
 
@@ -118,7 +118,7 @@ During installation, you'll be prompted to configure:
 | **SDDM Wallpaper**      | Multiple options     | Select login screen background        |
 | **Extra Wallpapers**    | Yes / No             | Download additional wallpapers (~1GB) |
 
-#### 🔐 Authentication Notes
+#### Authentication Notes
 
 The installer will request sudo password **2-3 times** during the process:
 
@@ -127,37 +127,37 @@ The installer will request sudo password **2-3 times** during the process:
 - Once for wallust installation
 - Additional prompts for optional packages
 
-## 🎨 Features
+## Features
 
-### 🖥️ Desktop Environment
+### Desktop Environment
 
 - **[Hyprland](https://hyprland.org/)**: Modern Wayland compositor with smooth animations
 - **[Waybar](https://github.com/Alexays/Waybar)**: Highly customizable status bar
 - **[Rofi](https://github.com/davatorium/rofi)**: Application launcher and window switcher
 - **[SDDM](https://github.com/sddm/sddm)**: Beautiful login manager with custom theme
 
-### 🎨 Theming & Aesthetics
+### Theming & Aesthetics
 
 - **[Material Design](https://material.io/design/)**: Deep Ocean color scheme
 - **[Papirus Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)**: Comprehensive icon theme with cyan accents
 - **[Future Black Cursors](https://www.gnome-look.org/p/1713404/)**: Custom cursor theme
 - **[GTK](https://www.gtk.org/)** Integration: Seamless theme integration across applications
 
-### 🛠️ Development Tools
+### Development Tools
 
 - **[Neovim](https://neovim.io/)**: Fully configured with plugins and LSP support
 - **[Tmux](https://github.com/tmux/tmux)**: Terminal multiplexer with custom layouts
 - **[Zsh](https://www.zsh.org/)**: Enhanced shell with Oh My Zsh and custom theme
 - **[Git](https://git-scm.com/)** Integration: Pre-configured Git settings
 
-### 📱 Applications & Utilities
+### Applications & Utilities
 
 - **[Thunar](https://docs.xfce.org/xfce/thunar/start)**: File manager with custom configurations
 - **[Kitty](https://sw.kovidgoyal.net/kitty/)**, **[Foot](https://codeberg.org/dnkl/foot)**, **[Alacritty](https://alacritty.org/)**: Terminal options
 - **[VLC](https://www.videolan.org/vlc/)**, **[OBS Studio](https://obsproject.com/)**: Media and content creation tools
 - **[Obsidian](https://obsidian.md/)**, **[VS Code](https://code.visualstudio.com/)**: Productivity applications
 
-### 🌐 Web Applications
+### Web Applications
 
 Automated setup of Progressive Web Apps (PWAs) for:
 
@@ -167,7 +167,7 @@ Automated setup of Progressive Web Apps (PWAs) for:
 - [WhatsApp](https://www.whatsapp.com/), [Discord](https://discord.com/), [Slack](https://slack.com/)
 - And many more...
 
-## 🔧 Post-Installation
+## Post-Installation
 
 ### First Boot
 
@@ -184,9 +184,9 @@ After installation completes:
 - **Themes**: Available in `~/.themes/`
 - **Backup**: Original configs backed up to `~/dotfiles_backup/`
 
-## 📖 Documentation
+## Documentation
 
-### 🗂️ Project Structure
+### Project Structure
 
 ```
 HyprFlux/
@@ -203,7 +203,7 @@ HyprFlux/
 └── README.md              # This file
 ```
 
-### 🔧 Key Configuration Files
+### Key Configuration Files
 
 - `~/.config/hypr/hyprland.conf` - Hyprland window manager settings
 - `~/.config/waybar/config` - Status bar configuration
@@ -213,44 +213,44 @@ HyprFlux/
 
 ### Getting Help
 
-- 📋 Check the [Issues](https://github.com/ahmad9059/HyprFlux/issues) page
-- 💬 Join our community discussions
-- 📧 Contact: [ahmad9059@example.com](mailto:ahmad9059@example.com)
+- Check the [Issues](https://github.com/ahmad9059/HyprFlux/issues) page
+- Join our community discussions
+- Contact: [ahmad9059@example.com](mailto:ahmad9059@example.com)
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Here's how you can help:
 
-### 🐛 Reporting Bugs
+### Reporting Bugs
 
 1. Check existing [issues](https://github.com/ahmad9059/HyprFlux/issues)
 2. Create a new issue with detailed information
 3. Include system information and error logs
 
-### 💡 Suggesting Features
+### Suggesting Features
 
 1. Open a feature request issue
 2. Describe the feature and its benefits
 3. Provide implementation ideas if possible
 
-### 🔧 Code Contributions
+### Code Contributions
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
 3. Make your changes and test thoroughly
 4. Submit a pull request with detailed description
 
-### 📝 Documentation
+### Documentation
 
 - Improve README and documentation
 - Add configuration examples
 - Create tutorials and guides
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Special thanks to:
 
@@ -260,7 +260,7 @@ Special thanks to:
 - **Open Source Contributors** - For the tools and themes used
 - **Community Members** - For feedback and contributions
 
-## 📊 Project Stats
+## Project Stats
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ahmad9059/HyprFlux)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ahmad9059/HyprFlux)
@@ -271,8 +271,8 @@ Special thanks to:
 
 <div align="center">
 
-**Made with ❤️ by [ahmad9059](https://github.com/ahmad9059)**
+**Made by [ahmad9059](https://github.com/ahmad9059)**
 
-⭐ **Star this repository if you found it helpful!** ⭐
+**Star this repository if you found it helpful!**
 
 </div>
